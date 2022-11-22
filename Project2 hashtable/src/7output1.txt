@@ -1,0 +1,7 @@
+HashTable[0]: (dummy,Cole)--->(Cole,David)--->(David,Jesse)--->(Jesse,Kevin)--->(Kevin,Ryan)--->(Ryan,Tsering)--->(Tsering,NULL)
+HashTable[1]: (dummy,Arben)--->(Arben,Benjamin)--->(Benjamin,Frederick)--->(Frederick,Hengtuo)--->(Hengtuo,Jia)--->(Jia,Liwen)--->(Liwen,NULL)
+HashTable[2]: (dummy,Aviraj)--->(Aviraj,Jurgen)--->(Jurgen,Seungwon)--->(Seungwon,Shaxzod)--->(Shaxzod,Yiqing)--->(Yiqing,Zai)--->(Zai,NULL)
+HashTable[3]: (dummy,Sean)--->(Sean,Siliang)--->(Siliang,Tania)--->(Tania,NULL)
+HashTable[4]: (dummy,Alex)--->(Alex,Matthew)--->(Matthew,NULL)
+HashTable[5]: (dummy,Diego)--->(Diego,Manana)--->(Manana,Mohammad)--->(Mohammad,Steven)--->(Steven,Tim)--->(Tim,NULL)
+HashTable[6]: (dummy,Daniel)--->(Daniel,Ivan)--->(Ivan,Jesrhythm)--->(Jesrhythm,Tshetrim)--->(Tshetrim,NULL)

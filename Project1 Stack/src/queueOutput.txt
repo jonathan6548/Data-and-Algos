@@ -1,0 +1,94 @@
+data coming in is:   +Mohammad
+dummy=> Mohammad=> NULL
+data coming in is:   +Diego
+dummy=> Mohammad=> Diego=> NULL
+data coming in is:   +Daniel
+dummy=> Mohammad=> Diego=> Daniel=> NULL
+data coming in is:   +Alex
+dummy=> Mohammad=> Diego=> Daniel=> Alex=> NULL
+data coming in is:   +AlAmin
+dummy=> Mohammad=> Diego=> Daniel=> Alex=> AlAmin=> NULL
+data coming in is:   +Cole
+dummy=> Mohammad=> Diego=> Daniel=> Alex=> AlAmin=> Cole=> NULL
+data coming in is:   +Jia
+dummy=> Mohammad=> Diego=> Daniel=> Alex=> AlAmin=> Cole=> Jia=> NULL
+data coming in is:   -Liwen
+dummy=> Diego=> Daniel=> Alex=> AlAmin=> Cole=> Jia=> NULL
+data coming in is:   +Jesse
+dummy=> Diego=> Daniel=> Alex=> AlAmin=> Cole=> Jia=> Jesse=> NULL
+data coming in is:   -Ning
+dummy=> Daniel=> Alex=> AlAmin=> Cole=> Jia=> Jesse=> NULL
+data coming in is:   +Asadbek
+dummy=> Daniel=> Alex=> AlAmin=> Cole=> Jia=> Jesse=> Asadbek=> NULL
+data coming in is:   -Jesrhythm
+dummy=> Alex=> AlAmin=> Cole=> Jia=> Jesse=> Asadbek=> NULL
+data coming in is:   +Ryan
+dummy=> Alex=> AlAmin=> Cole=> Jia=> Jesse=> Asadbek=> Ryan=> NULL
+data coming in is:   +Tsering
+dummy=> Alex=> AlAmin=> Cole=> Jia=> Jesse=> Asadbek=> Ryan=> Tsering=> NULL
+data coming in is:   -Tshetrim
+dummy=> AlAmin=> Cole=> Jia=> Jesse=> Asadbek=> Ryan=> Tsering=> NULL
+data coming in is:   -Yiqing
+dummy=> Cole=> Jia=> Jesse=> Asadbek=> Ryan=> Tsering=> NULL
+data coming in is:   -Manana
+dummy=> Jia=> Jesse=> Asadbek=> Ryan=> Tsering=> NULL
+data coming in is:   -Ivan
+dummy=> Jesse=> Asadbek=> Ryan=> Tsering=> NULL
+data coming in is:   -Tania
+dummy=> Asadbek=> Ryan=> Tsering=> NULL
+data coming in is:   +Aniss
+dummy=> Asadbek=> Ryan=> Tsering=> Aniss=> NULL
+data coming in is:   +Erik
+dummy=> Asadbek=> Ryan=> Tsering=> Aniss=> Erik=> NULL
+data coming in is:   +Kevin
+dummy=> Asadbek=> Ryan=> Tsering=> Aniss=> Erik=> Kevin=> NULL
+data coming in is:   +Arben
+dummy=> Asadbek=> Ryan=> Tsering=> Aniss=> Erik=> Kevin=> Arben=> NULL
+data coming in is:   +David
+dummy=> Asadbek=> Ryan=> Tsering=> Aniss=> Erik=> Kevin=> Arben=> David=> NULL
+data coming in is:   -Benjamin
+dummy=> Ryan=> Tsering=> Aniss=> Erik=> Kevin=> Arben=> David=> NULL
+data coming in is:   -Fahim
+dummy=> Tsering=> Aniss=> Erik=> Kevin=> Arben=> David=> NULL
+data coming in is:   +Hengtuo
+dummy=> Tsering=> Aniss=> Erik=> Kevin=> Arben=> David=> Hengtuo=> NULL
+data coming in is:   +Siliang
+dummy=> Tsering=> Aniss=> Erik=> Kevin=> Arben=> David=> Hengtuo=> Siliang=> NULL
+data coming in is:   -Seungwon
+dummy=> Aniss=> Erik=> Kevin=> Arben=> David=> Hengtuo=> Siliang=> NULL
+data coming in is:   +Yahav
+dummy=> Aniss=> Erik=> Kevin=> Arben=> David=> Hengtuo=> Siliang=> Yahav=> NULL
+data coming in is:   -Jurgen
+dummy=> Erik=> Kevin=> Arben=> David=> Hengtuo=> Siliang=> Yahav=> NULL
+data coming in is:   +Gildian
+dummy=> Erik=> Kevin=> Arben=> David=> Hengtuo=> Siliang=> Yahav=> Gildian=> NULL
+data coming in is:   -Seong
+dummy=> Kevin=> Arben=> David=> Hengtuo=> Siliang=> Yahav=> Gildian=> NULL
+data coming in is:   -Auyon
+dummy=> Arben=> David=> Hengtuo=> Siliang=> Yahav=> Gildian=> NULL
+data coming in is:   -Frederick
+dummy=> David=> Hengtuo=> Siliang=> Yahav=> Gildian=> NULL
+data coming in is:   +Aviraj
+dummy=> David=> Hengtuo=> Siliang=> Yahav=> Gildian=> Aviraj=> NULL
+data coming in is:   +Shaxzod
+dummy=> David=> Hengtuo=> Siliang=> Yahav=> Gildian=> Aviraj=> Shaxzod=> NULL
+data coming in is:   +Imran
+dummy=> David=> Hengtuo=> Siliang=> Yahav=> Gildian=> Aviraj=> Shaxzod=> Imran=> NULL
+data coming in is:   +Zai
+dummy=> David=> Hengtuo=> Siliang=> Yahav=> Gildian=> Aviraj=> Shaxzod=> Imran=> Zai=> NULL
+data coming in is:   +Jonathan
+dummy=> David=> Hengtuo=> Siliang=> Yahav=> Gildian=> Aviraj=> Shaxzod=> Imran=> Zai=> Jonathan=> NULL
+data coming in is:   +Sean
+dummy=> David=> Hengtuo=> Siliang=> Yahav=> Gildian=> Aviraj=> Shaxzod=> Imran=> Zai=> Jonathan=> Sean=> NULL
+data coming in is:   +Brandon
+dummy=> David=> Hengtuo=> Siliang=> Yahav=> Gildian=> Aviraj=> Shaxzod=> Imran=> Zai=> Jonathan=> Sean=> Brandon=> NULL
+data coming in is:   +Juan
+dummy=> David=> Hengtuo=> Siliang=> Yahav=> Gildian=> Aviraj=> Shaxzod=> Imran=> Zai=> Jonathan=> Sean=> Brandon=> Juan=> NULL
+data coming in is:   -Steven
+dummy=> Hengtuo=> Siliang=> Yahav=> Gildian=> Aviraj=> Shaxzod=> Imran=> Zai=> Jonathan=> Sean=> Brandon=> Juan=> NULL
+data coming in is:   -Tim
+dummy=> Siliang=> Yahav=> Gildian=> Aviraj=> Shaxzod=> Imran=> Zai=> Jonathan=> Sean=> Brandon=> Juan=> NULL
+data coming in is:   -Matthew
+dummy=> Yahav=> Gildian=> Aviraj=> Shaxzod=> Imran=> Zai=> Jonathan=> Sean=> Brandon=> Juan=> NULL
+data coming in is:   +Natasha
+dummy=> Yahav=> Gildian=> Aviraj=> Shaxzod=> Imran=> Zai=> Jonathan=> Sean=> Brandon=> Juan=> Natasha=> NULL

@@ -1,0 +1,564 @@
+Enter informationProcessing method 
+input is:   +	Mohammad
+index for data is:  9
+linked list before insertion: 
+HashTable[9]: (dummy,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[9]: (dummy,Mohammad)--->(Mohammad,NULL)
+
+ 
+input is:   +	Diego
+index for data is:  8
+linked list before insertion: 
+HashTable[8]: (dummy,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[8]: (dummy,Diego)--->(Diego,NULL)
+
+ 
+input is:   +	Daniel
+index for data is:  12
+linked list before insertion: 
+HashTable[12]: (dummy,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[12]: (dummy,Daniel)--->(Daniel,NULL)
+
+ 
+input is:   +	Alex
+index for data is:  8
+linked list before insertion: 
+HashTable[8]: (dummy,Diego)--->(Diego,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[8]: (dummy,Alex)--->(Alex,Diego)--->(Diego,NULL)
+
+ 
+input is:   +	AlAmin
+index for data is:  6
+linked list before insertion: 
+HashTable[6]: (dummy,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[6]: (dummy,AlAmin)--->(AlAmin,NULL)
+
+ 
+input is:   ?	AlAmin
+index for data is:  6
+linked list before insertion: 
+HashTable[6]: (dummy,AlAmin)--->(AlAmin,NULL)
+** Inside hashRetrieval. Performing hashRetrieval 
+Yes, the record is in the database! 
+
+ 
+input is:   -	AlAmin
+index for data is:  6
+linked list before insertion: 
+HashTable[6]: (dummy,AlAmin)--->(AlAmin,NULL)
+** Inside hashDelete method. Performing hashDelete  
+After hashDelete operation ... 
+HashTable[6]: (dummy,NULL)
+
+ 
+input is:   ?	AlAmin
+index for data is:  6
+linked list before insertion: 
+HashTable[6]: (dummy,NULL)
+** Inside hashRetrieval. Performing hashRetrieval 
+*** Warning, the record is *not* in the database! 
+
+ 
+input is:   +	Cole
+index for data is:  12
+linked list before insertion: 
+HashTable[12]: (dummy,Daniel)--->(Daniel,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[12]: (dummy,Cole)--->(Cole,Daniel)--->(Daniel,NULL)
+
+ 
+input is:   +	Jia
+index for data is:  6
+linked list before insertion: 
+HashTable[6]: (dummy,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[6]: (dummy,Jia)--->(Jia,NULL)
+
+ 
+input is:   +	Liwen
+index for data is:  0
+linked list before insertion: 
+HashTable[0]: (dummy,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[0]: (dummy,Liwen)--->(Liwen,NULL)
+
+ 
+input is:   +	Jesse
+index for data is:  11
+linked list before insertion: 
+HashTable[11]: (dummy,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[11]: (dummy,Jesse)--->(Jesse,NULL)
+
+ 
+input is:   ?	Jesse
+index for data is:  11
+linked list before insertion: 
+HashTable[11]: (dummy,Jesse)--->(Jesse,NULL)
+** Inside hashRetrieval. Performing hashRetrieval 
+Yes, the record is in the database! 
+
+ 
+input is:   -	Jesse
+index for data is:  11
+linked list before insertion: 
+HashTable[11]: (dummy,Jesse)--->(Jesse,NULL)
+** Inside hashDelete method. Performing hashDelete  
+After hashDelete operation ... 
+HashTable[11]: (dummy,NULL)
+
+ 
+input is:   +	Jesse
+index for data is:  11
+linked list before insertion: 
+HashTable[11]: (dummy,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[11]: (dummy,Jesse)--->(Jesse,NULL)
+
+ 
+input is:   +	Ning
+index for data is:  2
+linked list before insertion: 
+HashTable[2]: (dummy,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[2]: (dummy,Ning)--->(Ning,NULL)
+
+ 
+input is:   ?	Ning
+index for data is:  2
+linked list before insertion: 
+HashTable[2]: (dummy,Ning)--->(Ning,NULL)
+** Inside hashRetrieval. Performing hashRetrieval 
+Yes, the record is in the database! 
+
+ 
+input is:   +	Asadbek
+index for data is:  2
+linked list before insertion: 
+HashTable[2]: (dummy,Ning)--->(Ning,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[2]: (dummy,Asadbek)--->(Asadbek,Ning)--->(Ning,NULL)
+
+ 
+input is:   -	Asadbek
+index for data is:  2
+linked list before insertion: 
+HashTable[2]: (dummy,Asadbek)--->(Asadbek,Ning)--->(Ning,NULL)
+** Inside hashDelete method. Performing hashDelete  
+After hashDelete operation ... 
+HashTable[2]: (dummy,Ning)--->(Ning,NULL)
+
+ 
+input is:   -	Asadbek
+index for data is:  2
+linked list before insertion: 
+HashTable[2]: (dummy,Ning)--->(Ning,NULL)
+** Inside hashDelete method. Performing hashDelete  
+*** Warning: data is *not* in the database! 
+
+ 
+input is:   *	Asadbek
+index for data is:  2
+linked list before insertion: 
+HashTable[2]: (dummy,Ning)--->(Ning,NULL)
+* is an unrecognizable operation!
+
+ 
+input is:   +	Jesrhythm
+index for data is:  8
+linked list before insertion: 
+HashTable[8]: (dummy,Alex)--->(Alex,Diego)--->(Diego,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[8]: (dummy,Alex)--->(Alex,Diego)--->(Diego,Jesrhythm)--->(Jesrhythm,NULL)
+
+ 
+input is:   -	Ning
+index for data is:  2
+linked list before insertion: 
+HashTable[2]: (dummy,Ning)--->(Ning,NULL)
+** Inside hashDelete method. Performing hashDelete  
+After hashDelete operation ... 
+HashTable[2]: (dummy,NULL)
+
+ 
+input is:   +	Ryan
+index for data is:  6
+linked list before insertion: 
+HashTable[6]: (dummy,Jia)--->(Jia,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[6]: (dummy,Jia)--->(Jia,Ryan)--->(Ryan,NULL)
+
+ 
+input is:   +	Asadbek
+index for data is:  2
+linked list before insertion: 
+HashTable[2]: (dummy,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[2]: (dummy,Asadbek)--->(Asadbek,NULL)
+
+ 
+input is:   +	Tsering
+index for data is:  4
+linked list before insertion: 
+HashTable[4]: (dummy,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[4]: (dummy,Tsering)--->(Tsering,NULL)
+
+ 
+input is:   +	Tshetrim
+index for data is:  6
+linked list before insertion: 
+HashTable[6]: (dummy,Jia)--->(Jia,Ryan)--->(Ryan,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[6]: (dummy,Jia)--->(Jia,Ryan)--->(Ryan,Tshetrim)--->(Tshetrim,NULL)
+
+ 
+input is:   +	Yiqing
+index for data is:  4
+linked list before insertion: 
+HashTable[4]: (dummy,Tsering)--->(Tsering,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[4]: (dummy,Tsering)--->(Tsering,Yiqing)--->(Yiqing,NULL)
+
+ 
+input is:   -	Asadbek
+index for data is:  2
+linked list before insertion: 
+HashTable[2]: (dummy,Asadbek)--->(Asadbek,NULL)
+** Inside hashDelete method. Performing hashDelete  
+After hashDelete operation ... 
+HashTable[2]: (dummy,NULL)
+
+ 
+input is:   +	Manana
+index for data is:  6
+linked list before insertion: 
+HashTable[6]: (dummy,Jia)--->(Jia,Ryan)--->(Ryan,Tshetrim)--->(Tshetrim,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[6]: (dummy,Jia)--->(Jia,Manana)--->(Manana,Ryan)--->(Ryan,Tshetrim)--->(Tshetrim,NULL)
+
+ 
+input is:   +	Ivan
+index for data is:  8
+linked list before insertion: 
+HashTable[8]: (dummy,Alex)--->(Alex,Diego)--->(Diego,Jesrhythm)--->(Jesrhythm,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[8]: (dummy,Alex)--->(Alex,Diego)--->(Diego,Ivan)--->(Ivan,Jesrhythm)--->(Jesrhythm,NULL)
+
+ 
+input is:   +	Tania
+index for data is:  7
+linked list before insertion: 
+HashTable[7]: (dummy,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[7]: (dummy,Tania)--->(Tania,NULL)
+
+ 
+input is:   %	Aniss
+index for data is:  7
+linked list before insertion: 
+HashTable[7]: (dummy,Tania)--->(Tania,NULL)
+% is an unrecognizable operation!
+
+ 
+input is:   ?	Erik
+index for data is:  7
+linked list before insertion: 
+HashTable[7]: (dummy,Tania)--->(Tania,NULL)
+** Inside hashRetrieval. Performing hashRetrieval 
+*** Warning, the record is *not* in the database! 
+
+ 
+input is:   +	Erik
+index for data is:  7
+linked list before insertion: 
+HashTable[7]: (dummy,Tania)--->(Tania,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[7]: (dummy,Erik)--->(Erik,Tania)--->(Tania,NULL)
+
+ 
+input is:   -	Erik
+index for data is:  7
+linked list before insertion: 
+HashTable[7]: (dummy,Erik)--->(Erik,Tania)--->(Tania,NULL)
+** Inside hashDelete method. Performing hashDelete  
+After hashDelete operation ... 
+HashTable[7]: (dummy,Tania)--->(Tania,NULL)
+
+ 
+input is:   ?	Erik
+index for data is:  7
+linked list before insertion: 
+HashTable[7]: (dummy,Tania)--->(Tania,NULL)
+** Inside hashRetrieval. Performing hashRetrieval 
+*** Warning, the record is *not* in the database! 
+
+ 
+input is:   +	Kevin
+index for data is:  12
+linked list before insertion: 
+HashTable[12]: (dummy,Cole)--->(Cole,Daniel)--->(Daniel,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[12]: (dummy,Cole)--->(Cole,Daniel)--->(Daniel,Kevin)--->(Kevin,NULL)
+
+ 
+input is:   +	Arben
+index for data is:  10
+linked list before insertion: 
+HashTable[10]: (dummy,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[10]: (dummy,Arben)--->(Arben,NULL)
+
+ 
+input is:   +	David
+index for data is:  11
+linked list before insertion: 
+HashTable[11]: (dummy,Jesse)--->(Jesse,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[11]: (dummy,David)--->(David,Jesse)--->(Jesse,NULL)
+
+ 
+input is:   +	Benjamin
+index for data is:  10
+linked list before insertion: 
+HashTable[10]: (dummy,Arben)--->(Arben,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[10]: (dummy,Arben)--->(Arben,Benjamin)--->(Benjamin,NULL)
+
+ 
+input is:   -	Fahim
+index for data is:  2
+linked list before insertion: 
+HashTable[2]: (dummy,NULL)
+** Inside hashDelete method. Performing hashDelete  
+*** Warning: data is *not* in the database! 
+
+ 
+input is:   +	Hengtuo
+index for data is:  11
+linked list before insertion: 
+HashTable[11]: (dummy,David)--->(David,Jesse)--->(Jesse,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[11]: (dummy,David)--->(David,Hengtuo)--->(Hengtuo,Jesse)--->(Jesse,NULL)
+
+ 
+input is:   +	Siliang
+index for data is:  0
+linked list before insertion: 
+HashTable[0]: (dummy,Liwen)--->(Liwen,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[0]: (dummy,Liwen)--->(Liwen,Siliang)--->(Siliang,NULL)
+
+ 
+input is:   +	Seungwon
+index for data is:  12
+linked list before insertion: 
+HashTable[12]: (dummy,Cole)--->(Cole,Daniel)--->(Daniel,Kevin)--->(Kevin,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[12]: (dummy,Cole)--->(Cole,Daniel)--->(Daniel,Kevin)--->(Kevin,Seungwon)--->(Seungwon,NULL)
+
+ 
+input is:   ?	Yahav
+index for data is:  4
+linked list before insertion: 
+HashTable[4]: (dummy,Tsering)--->(Tsering,Yiqing)--->(Yiqing,NULL)
+** Inside hashRetrieval. Performing hashRetrieval 
+*** Warning, the record is *not* in the database! 
+
+ 
+input is:   +	Jurgen
+index for data is:  10
+linked list before insertion: 
+HashTable[10]: (dummy,Arben)--->(Arben,Benjamin)--->(Benjamin,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[10]: (dummy,Arben)--->(Arben,Benjamin)--->(Benjamin,Jurgen)--->(Jurgen,NULL)
+
+ 
+input is:   -	Gildian
+index for data is:  7
+linked list before insertion: 
+HashTable[7]: (dummy,Tania)--->(Tania,NULL)
+** Inside hashDelete method. Performing hashDelete  
+*** Warning: data is *not* in the database! 
+
+ 
+input is:   ?	Seong
+index for data is:  11
+linked list before insertion: 
+HashTable[11]: (dummy,David)--->(David,Hengtuo)--->(Hengtuo,Jesse)--->(Jesse,NULL)
+** Inside hashRetrieval. Performing hashRetrieval 
+*** Warning, the record is *not* in the database! 
+
+ 
+input is:   #	Auyon
+index for data is:  12
+linked list before insertion: 
+HashTable[12]: (dummy,Cole)--->(Cole,Daniel)--->(Daniel,Kevin)--->(Kevin,Seungwon)--->(Seungwon,NULL)
+# is an unrecognizable operation!
+
+ 
+input is:   +	Frederick
+index for data is:  4
+linked list before insertion: 
+HashTable[4]: (dummy,Tsering)--->(Tsering,Yiqing)--->(Yiqing,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[4]: (dummy,Frederick)--->(Frederick,Tsering)--->(Tsering,Yiqing)--->(Yiqing,NULL)
+
+ 
+input is:   +	Aviraj
+index for data is:  11
+linked list before insertion: 
+HashTable[11]: (dummy,David)--->(David,Hengtuo)--->(Hengtuo,Jesse)--->(Jesse,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[11]: (dummy,Aviraj)--->(Aviraj,David)--->(David,Hengtuo)--->(Hengtuo,Jesse)--->(Jesse,NULL)
+
+ 
+input is:   +	Shaxzod
+index for data is:  12
+linked list before insertion: 
+HashTable[12]: (dummy,Cole)--->(Cole,Daniel)--->(Daniel,Kevin)--->(Kevin,Seungwon)--->(Seungwon,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[12]: (dummy,Cole)--->(Cole,Daniel)--->(Daniel,Kevin)--->(Kevin,Seungwon)--->(Seungwon,Shaxzod)--->(Shaxzod,NULL)
+
+ 
+input is:   -	Imran
+index for data is:  9
+linked list before insertion: 
+HashTable[9]: (dummy,Mohammad)--->(Mohammad,NULL)
+** Inside hashDelete method. Performing hashDelete  
+*** Warning: data is *not* in the database! 
+
+ 
+input is:   +	Zai
+index for data is:  9
+linked list before insertion: 
+HashTable[9]: (dummy,Mohammad)--->(Mohammad,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[9]: (dummy,Mohammad)--->(Mohammad,Zai)--->(Zai,NULL)
+
+ 
+input is:   ?	Jonathan
+index for data is:  3
+linked list before insertion: 
+HashTable[3]: (dummy,NULL)
+** Inside hashRetrieval. Performing hashRetrieval 
+*** Warning, the record is *not* in the database! 
+
+ 
+input is:   +	Sean
+index for data is:  9
+linked list before insertion: 
+HashTable[9]: (dummy,Mohammad)--->(Mohammad,Zai)--->(Zai,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[9]: (dummy,Mohammad)--->(Mohammad,Sean)--->(Sean,Zai)--->(Zai,NULL)
+
+ 
+input is:   -	Brandon
+index for data is:  6
+linked list before insertion: 
+HashTable[6]: (dummy,Jia)--->(Jia,Manana)--->(Manana,Ryan)--->(Ryan,Tshetrim)--->(Tshetrim,NULL)
+** Inside hashDelete method. Performing hashDelete  
+*** Warning: data is *not* in the database! 
+
+ 
+input is:   ?	Juan
+index for data is:  6
+linked list before insertion: 
+HashTable[6]: (dummy,Jia)--->(Jia,Manana)--->(Manana,Ryan)--->(Ryan,Tshetrim)--->(Tshetrim,NULL)
+** Inside hashRetrieval. Performing hashRetrieval 
+*** Warning, the record is *not* in the database! 
+
+ 
+input is:   +	Steven
+index for data is:  0
+linked list before insertion: 
+HashTable[0]: (dummy,Liwen)--->(Liwen,Siliang)--->(Siliang,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[0]: (dummy,Liwen)--->(Liwen,Siliang)--->(Siliang,Steven)--->(Steven,NULL)
+
+ 
+input is:   +	Tim
+index for data is:  1
+linked list before insertion: 
+HashTable[1]: (dummy,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[1]: (dummy,Tim)--->(Tim,NULL)
+
+ 
+input is:   +	Matthew
+index for data is:  0
+linked list before insertion: 
+HashTable[0]: (dummy,Liwen)--->(Liwen,Siliang)--->(Siliang,Steven)--->(Steven,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[0]: (dummy,Liwen)--->(Liwen,Matthew)--->(Matthew,Siliang)--->(Siliang,Steven)--->(Steven,NULL)
+
+ 
+input is:   +	Natasha
+index for data is:  5
+linked list before insertion: 
+HashTable[5]: (dummy,NULL)
+*** Inside hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[5]: (dummy,Natasha)--->(Natasha,NULL)
+
+ 
+input is:   -	Natasha
+index for data is:  5
+linked list before insertion: 
+HashTable[5]: (dummy,Natasha)--->(Natasha,NULL)
+** Inside hashDelete method. Performing hashDelete  
+After hashDelete operation ... 
+HashTable[5]: (dummy,NULL)
+
+ 
+input is:   ?	Natasha
+index for data is:  5
+linked list before insertion: 
+HashTable[5]: (dummy,NULL)
+** Inside hashRetrieval. Performing hashRetrieval 
+*** Warning, the record is *not* in the database! 
+
+ 
